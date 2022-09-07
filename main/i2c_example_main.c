@@ -51,6 +51,12 @@ static const char *TAG = "i2c-example";
 SemaphoreHandle_t print_mux = NULL;
 
 /**
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
  * @brief test code to read esp-i2c-slave
  *        We need to fill the buffer of esp slave device, then master can read them out.
  *
