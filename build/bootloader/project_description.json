@@ -1,0 +1,21 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "/home/hirobe/esp/esp-idf/components/bootloader/subproject",
+    "build_dir":          "/home/hirobe/BH1750/build/bootloader",
+    "config_file":        "/home/hirobe/BH1750/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v4.4.2-dirty",
+    "target":             "esp32c3",
+    "rev":                "",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "riscv32-esp-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "/home/hirobe/esp/esp-idf/components/efuse/Kconfig;/home/hirobe/esp/esp-idf/components/esp32c3/Kconfig;/home/hirobe/esp/esp-idf/components/esp_common/Kconfig;/home/hirobe/esp/esp-idf/components/esp_hw_support/Kconfig;/home/hirobe/esp/esp-idf/components/esp_system/Kconfig;/home/hirobe/esp/esp-idf/components/freertos/Kconfig;/home/hirobe/esp/esp-idf/components/hal/Kconfig;/home/hirobe/esp/esp-idf/components/log/Kconfig;/home/hirobe/esp/esp-idf/components/newlib/Kconfig;/home/hirobe/esp/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "/home/hirobe/esp/esp-idf/components/bootloader/Kconfig.projbuild;/home/hirobe/esp/esp-idf/components/esp_rom/Kconfig.projbuild;/home/hirobe/esp/esp-idf/components/esptool_py/Kconfig.projbuild;/home/hirobe/esp/esp-idf/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp32c3", "esp_common", "esp_hw_support", "esp_rom", "esp_system", "esptool_py", "freertos", "hal", "log", "main", "micro-ecc", "newlib", "partition_table", "riscv", "soc", "spi_flash", "" ],
+    "build_component_paths" : [ "/home/hirobe/esp/esp-idf/components/bootloader", "/home/hirobe/esp/esp-idf/components/bootloader_support", "/home/hirobe/esp/esp-idf/components/efuse", "/home/hirobe/esp/esp-idf/components/esp32c3", "/home/hirobe/esp/esp-idf/components/esp_common", "/home/hirobe/esp/esp-idf/components/esp_hw_support", "/home/hirobe/esp/esp-idf/components/esp_rom", "/home/hirobe/esp/esp-idf/components/esp_system", "/home/hirobe/esp/esp-idf/components/esptool_py", "/home/hirobe/esp/esp-idf/components/freertos", "/home/hirobe/esp/esp-idf/components/hal", "/home/hirobe/esp/esp-idf/components/log", "/home/hirobe/esp/esp-idf/components/bootloader/subproject/main", "/home/hirobe/esp/esp-idf/components/bootloader/subproject/components/micro-ecc", "/home/hirobe/esp/esp-idf/components/newlib", "/home/hirobe/esp/esp-idf/components/partition_table", "/home/hirobe/esp/esp-idf/components/riscv", "/home/hirobe/esp/esp-idf/components/soc", "/home/hirobe/esp/esp-idf/components/spi_flash", "" ]
+}
